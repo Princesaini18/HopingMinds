@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <style>
+#a{
+    background-color: blanchedalmond;
+}
+        </style>
+        <div id="a">
+            <form>
+                <fieldset>
+                    <legend>Personal details</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name"><br>
+                    <label for="address ">address</label>
+                    <input type="text" id="address" placeholder="address" value="sector 71"><br>
+                    <lable for="gender">gender</lable>
+                    <input type="radio" id="gender" name="gender" value="male">male
+                    <input type="radio" id="gender" name="gender" value="male">female
+                    <input type="radio" id="gender" name="gender" value="male">other<br>
+                    <label for="dob">dob</label>
+                    <input type="date" id="dob"><br>
+                    <label>COUNTRY NAME</label>
+                    <input type="text" list="COUNTRY">
+                    <datalist id="COUNTRY">
+                        <option value="INDIA"></option>
+                        <option value="NEPAL"></option>
+                        <option value="CANADA"></option>
+                        <option value="USA"></option>
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <legend>select box</legend>
+                    <select name="drop" autofocus="true">
+                        <option disabled selected>select</option>
+                        <option value="ABC">ABC</option>
+                        <option value="ABC">ABC</option>
+                        <option value="ABC">ABC</option>
+                        <option value="ABC">ABC</option>
+                        <option value="ABC">ABC</option>
+                        <option value="ABC">ABC</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>feedback</legend>
+                    <label for="feedback">Feedback:</label><br>
+                    <textarea id="feedback" name="feedback" rows="5" cols="50" required></textarea><br><br>
+                </fieldset>
+            </form>
+        </div>
+        <fieldset>
+            <legend>select</legend>
+            <label for="drop" id="drop"></label>
+            <input text="" >
+        </fieldset>
+    </body>
+
+</html>
